@@ -23,10 +23,10 @@ backend
 
 | PNG type \ Backend | Native backend | `desilike` |
 | --- | --- | --- |
-| Local | dev:single tracer | Future | Future |
-| Equilateral | Future | Future | Future |
-| Orthogonal | Future | Future | Future |
-| Cosmological Collider | Future | Future | Future |
+| Local | dev:single tracer | dev:single tracer |
+| Equilateral | Future | Unable |
+| Orthogonal | Future | Unable |
+| Cosmological Collider | Future | Unable |
 
 ## design boundary
 
