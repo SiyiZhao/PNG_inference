@@ -48,8 +48,9 @@ Model RSD effect with Kaiser term $b(k)+f\mu^2$ in the formula.
 
 ### 1.4 Shot-noise
 
+Only same tracer + P0 has shotnoise:
 $$
-P_{\rm shot} = \frac{s_{n,0}}{\bar{n}} \delta_{XY}^D = \frac{s_{n,0}}{\bar{n}} \delta_{\ell 0}^D
+P_{\rm shot} = \frac{s_{n,0}}{\bar{n}} \delta_{XY}^D \delta_{\ell 0}^D
 $$
 
 ```python

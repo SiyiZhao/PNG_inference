@@ -18,4 +18,4 @@ Features in plan:
 
 与 ChatGPT 有以下对话：
 1. #sleep repo design: repo structure, public API, backend adapter, etc. 内容沉淀入 [docs/design_notes](./design_notes.md)
-2. #active desilike 调研及 backend 设计： desilike implement 已整理入文档 [experiments/desilike_lpng/notes](./desilike_lpng/notes.md), stage1 路线图已整理入文档 [docs/dev/stage1](./docs/dev/stage1.md)
+2. #active desilike 调研及 backend 设计： desilike implement 已整理入文档 [experiments/desilike_lpng/notes](../experiments/desilike_lpng/notes.md), stage1 路线图已整理入文档 [docs/dev/stage1](./docs/dev/stage1.md)

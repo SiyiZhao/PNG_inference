@@ -4,11 +4,23 @@ Aim: implement a backend adapter for `desilike`, and support local PNG inference
 
 dependency: `desilike` refactor-jax branch
 
+## Steps
+
+1. Environment Setup
+2. Reference Run
+3. Core API & backend adapter
+4. Results & provennance
+5. Validation & documentation
+
 ## Checklist
 
 - [ ] backend provenance: record the `desilike` commit hash, and `png_inference` version and commit hash in the inference results.
 - [ ] environment reproducibility: use `uv` to record the environment and dependencies, and provide a `uv` environment file for reproducibility.
 - [ ] version control" `git` + `uv` 
+
+- [ ] local PNG 'b-p', 'bphi', 'bfnl' three modes all works
+- [ ] results saved in structure and readable
+- [ ] the results of adapter is same as directly run desilike 
 
 ## Stage define
 
@@ -74,6 +86,7 @@ dependency: `desilike` refactor-jax branch
 4 modules: `model`, `data`, `likelihood`, `sampler`, each has a `name` and a set of parameters (priors for model, input path for data, etc.)
 
 ```yaml
+output_root: outputs/
 model:
   name: LocalPNG
   parameters: # priors
@@ -89,6 +102,7 @@ likelihood:
 sampler:
     name: dynesty
     nlive: 1000
+backend: desilike
 ```
 
 ### Model
