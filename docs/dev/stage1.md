@@ -6,8 +6,8 @@ dependency: `desilike` refactor-jax branch
 
 ## Steps
 
-1. Environment Setup
-2. Reference Run
+1. Environment Setup -- Done
+2. Reference Run -- Exploring...
 3. Core API & backend adapter
 4. Results & provennance
 5. Validation & documentation
@@ -15,8 +15,8 @@ dependency: `desilike` refactor-jax branch
 ## Checklist
 
 - [ ] backend provenance: record the `desilike` commit hash, and `png_inference` version and commit hash in the inference results.
-- [ ] environment reproducibility: use `uv` to record the environment and dependencies, and provide a `uv` environment file for reproducibility.
-- [ ] version control" `git` + `uv` 
+- [x] environment reproducibility: use `uv` to record the environment and dependencies, and provide a `uv` environment file for reproducibility.
+- [x] version control" `git` + `uv` 
 
 - [ ] local PNG 'b-p', 'bphi', 'bfnl' three modes all works
 - [ ] results saved in structure and readable
