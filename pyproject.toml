@@ -7,7 +7,9 @@ authors = [
     { name = "SiyiZhao", email = "siyizhao17@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+]
 
 [project.optional-dependencies]
 desilike = [
